@@ -7,7 +7,7 @@ const Texto = "Estudante apaixonado pela Área da computação e graduando do se
 const Part1 = styled.div`
     width: 30%;
     height: 38em;
-    background-color:#483D8B;
+    background-color:	#1C1C1C;
     text-align: center;
     display: inline-block;
 `
@@ -17,20 +17,20 @@ const Foto = styled.img`
     width: 60%;
     height: 40%;
     border-radius: 200%;
-    border: white solid
+    border:  #000000 solid 2px;
 `
 const Title = styled.h1`
-    background-color:#6959CD; 
-    color: #000000;
+    background-color:	#000000; 
+    color: #008000;
     font-family: 'Times New Roman', Times, serif;
     border: solid;
     width: 98%;
 `
-const link = "https://icon-library.com/images/default-user-icon/default-user-icon-8.jpg";
+const link = "https://media-exp1.licdn.com/dms/image/C4E03AQFAeRkOFyIBMQ/profile-displayphoto-shrink_800_800/0/1629493319531?e=1637798400&v=beta&t=ZG5OVTCH65mW1Ie6Mc8dct7CMUr70ymdIW_qY5HhwEs";
 
 const Info = styled.article`
-    background-color: #6959CD;
-    color:#000000;
+    background-color: #000000;
+    color:#008000;
     font-family: 'Times New Roman', Times, serif;
     border-style: solid;
     width: 95%;
@@ -41,8 +41,8 @@ const Info = styled.article`
 `
 
 const Info2 = styled.article`
-    background-color: #6959CD;
-    color: #000000;
+    background-color: #000000;
+    color: #008000;
     font-family: 'Times New Roman', Times, serif;
     border-style: solid;
     width: 95%;
@@ -52,8 +52,8 @@ const Info2 = styled.article`
     padding: 6.3px;
 `
 const Info3 = styled.article`
-    background-color: #6959CD;
-    color: #000000;
+    background-color: #000000;
+    color: #008000;
     font-family: 'Times New Roman', Times, serif;
     border-style: solid;
     width: 95%;
@@ -63,8 +63,8 @@ const Info3 = styled.article`
     padding: 6.3px;
 `
 const Info4 = styled.article`
-    background-color: #6959CD;
-    color: #000000;
+    background-color: #000000;
+    color: #008000;
     font-family: 'Times New Roman', Times, serif;
     border-style: solid;
     width: 95%;
@@ -80,7 +80,7 @@ const Container = styled.div`
 
 const Part2 = styled.div`
     width: 70%;
-    background-color: #836FFF;
+    background-image: url(https://th.bing.com/th/id/R.0ebda6b524d7e7c05fac962b5e928bf5?rik=H8RIYige8pnvPQ&pid=ImgRaw&r=0);
     display: flex;
     flex-wrap: wrap;
 `
@@ -90,14 +90,14 @@ const Form2 = styled.div`
     margin-left: 50px;
     width: 38%;
     height: 50%;
-    background-color: #483D8B;
+    background-color: 	#1C1C1C;
     text-align: center;
 `
 const Form3 = styled.div`
     margin-left: 50px;
     width: 38%;
     height: 40%;
-    background-color: #483D8B;
+    background-color: 	#1C1C1C;
     text-align: center;
     
 `

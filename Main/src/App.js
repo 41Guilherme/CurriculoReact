@@ -6,18 +6,19 @@ import styled from 'styled-components';
 
 
 const Head = styled.header`
-  background-color:#6959CD;
+  background-color:		#4F4F4F;
   width: 100%;
   height: 2.1em;
   display: flex;
-  color: #000000;
+  color: 	#000000;
 `
 const Head2 = styled.footer`
-  background-color:#6959CD;
+  background-color:#4F4F4F;
   width: 100%;
   height: 1.5em;
   display: flex;
   color: #000000;
+  
 
 `
 const Void = styled.div`
@@ -34,9 +35,9 @@ const Void3 = styled.div`
 `
 
 const Button = styled.button`
-  background-color: #836FFF;
-  color: white;
-  border-color: white;
+  background-color: #000000;
+  color: #006400;
+  border-color: #006400 ;
 `
 const Name = styled.span`
   font-size: 30px;
@@ -66,8 +67,8 @@ function App() {
       </Head>
       <Coluna1>
       </Coluna1>
-      <Head2> Email: guilherme41@usp.br <Void3/>  Telefone: +55 11 96514-7385 <Void3/> 
-      Endereço: Rua Doutor Luis Barreto 299 // Bela Vista // São Paulo - SP <Void3/>
+      <Head2> <Void3/> Email: guilherme41@usp.br <Void3/>  Telefone  Celular: +55 11 96514-7385 <Void3/> 
+      Telefone Fixo: 11 4305-4908<Void3/> Endereço: Rua Doutor Luis Barreto 299 // Bela Vista // São Paulo - SP 
       </Head2>
     </Fragment>
   );
